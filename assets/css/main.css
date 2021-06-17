@@ -37,20 +37,16 @@ nav ul {
 }
 .nav li {
   list-style: none;
-
-  
 }
 nav a {
   text-decoration: none;
   color: #ffff;
   font-size: 30px;
 }
-
 .burger-menu {
   width: 50px;
   position: fixed;
 }
-
 .close-menu {
   height: 2px;
   position: absolute;
@@ -63,7 +59,6 @@ nav a {
     background-color: white;
     transform-origin: center;
   }
-
   .one {
     transform: rotate(45deg);
   }
@@ -71,8 +66,7 @@ nav a {
     position: absolute;
     top: 0;
     transform: rotate(-45deg); 
-    }
-
+  }
      nav ul  {
       margin-top: 70px;
         overflow: hidden;
@@ -87,10 +81,8 @@ nav a {
       width: 100%;
       margin-bottom: 40px;
     }
-     
 .hero-contents {
   margin: 50px 100px;
-
 }
 .hero-text {
   color: #ffff;
@@ -105,7 +97,6 @@ nav a {
   margin-top: 40px;
   font-weight: 400;
 }
-
 .service {
   margin-top: 50px;
 }
@@ -121,7 +112,6 @@ nav a {
   font-size: 15px;
   font-weight: 500;
 }
-
 a img {
   width: 30px;
 color: #ffff;
@@ -130,7 +120,6 @@ margin-left: 10px;
 .book {
   margin-top: 40px;
 }
-
 .first {
   background: url(/assets/images/flagba.jpeg);
   width: 100%;
@@ -224,7 +213,6 @@ margin-left: 10px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  /* padding: 20px 5px; */
   border-radius: 4px;
   border: 2px #ffff solid;
 }
@@ -243,7 +231,6 @@ margin-left: 10px;
   background-color: #ffff;
   margin-top: 20px;
 }
-
 .card h2,p {
   color: #ffff;
 }
@@ -266,7 +253,6 @@ margin-left: 10px;
 .card-3 img {
   width: 83px;
 }
-
 .card-4 img {
   width: 100px;
 }
@@ -284,13 +270,11 @@ margin-left: 10px;
 } 
 .third {
   background-color: #7DF7FF;
-
 }
 .third-content {
   width: 90%;
   margin: 0 auto;
   padding: 20px 0;
- 
 }
 .third-content h1 {
   text-align: center;
@@ -308,7 +292,6 @@ margin-left: 10px;
   width: 30%;
   margin-top: 20px;
 }
-
 .team img {
   width: 350px;
   border: 3px solid #ffff;
@@ -358,10 +341,7 @@ margin-left: 10px;
 .fourth-wrapper {
   width: 35%;
   margin: 0 auto;
-  
-
 }
-
 .post {
   margin-top: 50px;
   background-color: rgba(255, 255, 255, 0.15);
@@ -375,7 +355,6 @@ margin-left: 10px;
   justify-content: center;
   align-items: center;
 }
-
 .slick-dots li button:before { 
   font-size: 30px;
   color: #ffff;
@@ -395,7 +374,6 @@ margin-left: 10px;
 .slick-dotted.slick-slider {
   margin-bottom: 132px;
 }
-
 .slick-next {
   right: -61px;
   margin-top: 8px;
@@ -426,7 +404,6 @@ margin-left: 10px;
   padding: 20px 70px;
 }
 .heading {
-  /* width: 70%; */
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
@@ -502,14 +479,12 @@ margin-left: 10px;
   background-color: #000000;
   color: #ffff;
   padding: 30px 120px ;
-
 }
 .employment h1 {
   color: #ffff;
   font-size: 30px;
   font-weight: 500;
   text-align: center;
-
 }
 .staff {
   display: flex;
@@ -559,11 +534,6 @@ margin-left: 10px;
 .v-assistant h3 {
   font-size: 20px;
 }
-/* .v-assistant h3 {
-  
-  font-size: 20px;
-  font-weight: 400;
-} */
 .v-assistant img {
   width: 650px;
   margin-top: 2rem;
@@ -577,11 +547,8 @@ margin-left: 10px;
   text-align: center;
   margin-top: 20px;
 }
-
-
 .our-patners {
   width: 100%;
-  /* margin: 0 auto; */
   padding: 40px 0;
 }
 .our-patners h1 {
@@ -597,11 +564,8 @@ margin-left: 10px;
   margin: 0 auto;
 }
 .op-logo img {
-  /* width: 100px;
-  height: 100px; */
   margin-top: 50px;
 }
-
 .twinslash {
   width: 385px;
   height: 150px; 
@@ -633,9 +597,6 @@ margin-left: 10px;
 .arrived {
   width: 290px;
 }
-
-
-
 .contact-us {
   background: url(/assets/images/contact.jpeg);
   width: 100%;
@@ -648,8 +609,6 @@ margin-left: 10px;
   background-color: rgba(0, 0, 0, 0.4); 
 }
 .methods {
-  /* display: flex;
-  justify-content: space-between; */
   width: 80%;
   margin: 0 auto;
 }
@@ -674,8 +633,7 @@ margin-left: 10px;
 }
 .form-field {
   margin-top: 20px;
-  width: 380px;
-  
+  width: 380px
 }
 input {
   width: 370px;
@@ -684,7 +642,6 @@ input {
   outline: none;
   border: 2px solid #000000;
   border-radius: 4px;
-  
 }
 ::placeholder {
   font-size: 12px;
@@ -719,12 +676,14 @@ footer p {
   }
   .hero {
     width: 100%;
+    padding: 10;
   }
   .hero-contents {
     margin: 0;
   }
   .hero-text h1 {
     font-size: 30px;
+    margin-top: 40px;
   }
   .hero-text p {
     font-size: 15px;
@@ -741,9 +700,10 @@ footer p {
   .first {
     padding: 0;
     flex-direction: column;
+    padding: 10px;
   }
   .abr-logo {
-    margin-top: 0;
+    margin-top: 10px;
   }
   .abr-logo img {
     width:200px;
@@ -753,23 +713,28 @@ footer p {
     margin: 0;
   }
   .abr-text p {
-    font-size: 10px;
+    font-size: 12px;
     margin: 0;
-    width: 200px;
+    width: 300px;
+  }
+  .abr-text h2 {
+    width: 300px;
   }
   .second {
-     padding: 0;
+     padding: 10;
   }
   .second-content {
-    width: 100%;
+    
     margin: 0;
-
+  }
+  .sc-text {
+    padding-top: 20px;
   }
   .sc-text h1 {
-    font-size: 20px;
+    font-size: 15px;
   }
   .sc-text p {
-    font-size: 15px;
+    font-size: 12px;
     width: 90%;
   }
   .reasons {
@@ -779,6 +744,9 @@ footer p {
   .card {
     width: 100%;
     margin-top: 20px;
+  }
+  .card p {
+    width: 224px;
   }
   
   .third-content {
@@ -790,13 +758,26 @@ footer p {
     flex-direction: column;
   }
   .team img{
-    width: 320px;
+    width: 286px;
   }
 
   .fourth {
     width: 100%;
+    padding: 20px 0;
   }
-
+  .fourth-wrapper {
+    margin: 0;
+    width: 90%;
+  }
+  .post {
+    margin-top: 20px;
+    padding: 10px 5px;
+  }
+  .post-text {
+    width: 250px;
+    font-size: 10px;
+  }
+  
   .fourth-text h1 {
     font-size: 20px;
   }
@@ -807,19 +788,20 @@ footer p {
   .fourth-text h2 {
     font-size: 15px;
   }
-  .fourth-wrapper {
-    width: 90%;
-  }
-
+ 
  
   .slick-dots li {
-    margin: 0 10px;
+    margin: 0 8px;
+  }
+  .slick-next {
+    right: -61px;
+    margin-top: 8px;
+  }
+  .slick-prev {
+    left: -84px;
   }
   
-  .post-text {
-    width: 250px;
-    font-size: 10px;
-  }
+ 
 
 
 
@@ -840,8 +822,7 @@ footer p {
     font-size: 12px;
     width: 330px;
     padding: 10px;
-    margin: 0 auto;
-
+    margin: 0;
     border-radius: 10px;
   }
   .heading h2 {
@@ -854,6 +835,7 @@ footer p {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin: 0;
   }
   .person {
     /* padding: 0 10px; */
@@ -888,12 +870,13 @@ footer p {
   }
   .employment {
     width: 100%;
-    padding: 0 15px;
+    padding: 10px;
     margin-top: 10px;
 
   }
   .employment h1 {
-    font-size: 20px;
+    font-size: 22px;
+
     
   }
   .staff {
@@ -905,37 +888,37 @@ footer p {
     text-align: left;
   }
   .hiring img {
-    width: 320px;
+    width: 310px;
   }
   .hiring p {
     font-size: 12px;
-    width: 320px;
+    width: 310px;
   }
   .c-support h2 {
-    font-size: 13px;
+    font-size: 12px;
 
   }
   .c-support img {
-    width: 320px;
+    width: 310px;
   }
   .c-support p {
     font-size: 12px;
-    width: 320px; 
+    width: 310px; 
   }
 
   .v-assistant h2 {
-    font-size: 20px;
+    font-size: 18px;
 
   }
   .v-assistant h3, h4 {
     font-size: 12px;
   }
   .v-assistant img {
-    width: 320px;
+    width: 310px;
   }
   .v-assistant p {
     font-size: 12px;
-    width: 330px;
+    width: 320px;
   }
   .our-patners {
     margin: 0 auto;
@@ -953,7 +936,7 @@ footer p {
     padding: 0;
   }
   .methods {
-    padding: 0 10px;
+    padding: 0 5px;
     width: 100%;
   }
   .methods h1 {
