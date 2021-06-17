@@ -8,7 +8,7 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 .hero {
-    background: url(/assets/images/Lady.jpeg);
+    background: url(../images/Lady.jpeg);
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -121,7 +121,7 @@ margin-left: 10px;
   margin-top: 40px;
 }
 .first {
-  background: url(/assets/images/flagba.jpeg);
+  background: url(../images/flaf.jpeg);
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -163,7 +163,7 @@ margin-left: 10px;
   font-size: 20px;
 }
 .second {
-  background: url(/assets/images/Papers.jpg);
+  background: url(../images/Papers.jpg);
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -306,7 +306,7 @@ margin-left: 10px;
   width: 300px;
 }
 .fourth {
-  background: url(/assets/images/rally.jpg);
+  background: url(../images/rally.jpg);
   width: 100%;
   background-position: top;
   background-repeat: no-repeat;
@@ -598,7 +598,7 @@ margin-left: 10px;
   width: 290px;
 }
 .contact-us {
-  background: url(/assets/images/contact.jpeg);
+  background: url(../images/contact.jpeg);
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
