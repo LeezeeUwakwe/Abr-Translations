@@ -673,6 +673,8 @@ footer p {
 @media screen  and (max-width:768px){
   body  {
     width: 100%;
+    
+    
   }
   .hero {
     width: 100%;
@@ -721,10 +723,12 @@ footer p {
     width: 300px;
   }
   .second {
-     padding: 10;
+     padding: 10px;
   }
+  /* .third {
+    display: none;
+  } */
   .second-content {
-    
     margin: 0;
   }
   .sc-text {
@@ -750,7 +754,6 @@ footer p {
   }
   
   .third-content {
-    
     margin: 0;
     padding: 0;
   }
@@ -758,15 +761,16 @@ footer p {
     flex-direction: column;
   }
   .team img{
-    width: 286px;
+    width: 300px;
   }
 
   .fourth {
+    
     width: 100%;
     padding: 20px 0;
   }
   .fourth-wrapper {
-    margin: 0;
+    margin: 0 auto;
     width: 90%;
   }
   .post {
@@ -822,7 +826,7 @@ footer p {
     font-size: 12px;
     width: 330px;
     padding: 10px;
-    margin: 0;
+    margin: 0 auto;
     border-radius: 10px;
   }
   .heading h2 {
@@ -847,10 +851,12 @@ footer p {
     /* height: 43vh; */
   }
   .person-image img {
-    border-radius: 0; 
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0
   }
    .person-text {
-     border-radius: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
      width: 100%;
   } 
   .person-text h1 {
@@ -869,26 +875,29 @@ footer p {
     width: 100%;
   }
   .employment {
-    width: 100%;
+    
     padding: 10px;
+    width: 100%;
     margin-top: 10px;
 
   }
+  .staff {
+    align-items: flex-start;
+  }
   .employment h1 {
     font-size: 22px;
-
-    
+    text-align: left;
   }
   .staff {
     flex-direction: column;
   }
   .hiring h2 {
-    
     font-size: 13px;
     text-align: left;
+    width: 100%;
   }
   .hiring img {
-    width: 310px;
+    width: 300px;
   }
   .hiring p {
     font-size: 12px;
@@ -905,11 +914,14 @@ footer p {
     font-size: 12px;
     width: 310px; 
   }
-
+   .v-assistant {
+    align-items: flex-start;
+  }
+/*
   .v-assistant h2 {
     font-size: 18px;
 
-  }
+  } */
   .v-assistant h3, h4 {
     font-size: 12px;
   }
@@ -918,11 +930,12 @@ footer p {
   }
   .v-assistant p {
     font-size: 12px;
-    width: 320px;
+    width: 290px;
+    
   }
-  .our-patners {
-    margin: 0 auto;
-  }
+  /* .our-patners {
+    margin: 0;
+  } */
   .our-patners h1 {
     font-size: 20px;
   }
@@ -932,8 +945,40 @@ footer p {
   .op-img {
     margin-top: 20px;
   }
+  .twinslash {
+    width: 300px;
+    height: 104px;
+  }
+  .pwn {
+    width: 240px;
+    height: 84px;
+  }
+  .red {
+    width: 167px;
+    height: 118px;
+
+  }
+  .penguin {
+    width: 150px;
+  }
+  .bread {
+    width: 235px;
+    height: 84px;
+  }
+  .crypto {
+    width: 259px;
+  }
   .contact-us {
     padding: 0;
+  }
+  .bitwala {
+    width: 150px;
+  }
+  .guardian {
+    width: 150px;
+  }
+  .arrived {
+    width: 150px;
   }
   .methods {
     padding: 0 5px;
@@ -944,6 +989,7 @@ footer p {
   }
   .map {
     flex-direction: column;
+    padding: 10px;
   }
   .map-holder {
     width: 90%;
@@ -961,6 +1007,7 @@ footer p {
   }
   footer {
     margin-top: 20px;
+    height: 0;
   }
   footer p {
     font-size: 12px;

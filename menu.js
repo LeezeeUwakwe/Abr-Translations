@@ -1,6 +1,14 @@
 $('.carusol').slick({
   dots: true,
-  autoplay: true,
+  // autoplay: true,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false
+      }
+    }
+  ]
 });
 
 const burgerMenu = document.querySelector(".burger-menu");
