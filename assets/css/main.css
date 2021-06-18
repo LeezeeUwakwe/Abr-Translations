@@ -174,7 +174,7 @@ margin-left: 10px;
   padding: 30px;
 }
 .second-content {
-  width: 90%;
+  /* width: 90%; */
   margin: 0 auto;
   color: #ffff;
 }
@@ -289,15 +289,50 @@ margin-left: 10px;
   margin: 0 auto;
 }
 .team {
-  width: 30%;
+  width: 33%;
   margin-top: 20px;
 }
 .team img {
-  width: 350px;
-  border: 3px solid #ffff;
+  /* width: 350px; */
+  /* border: 3px solid #ffff; */
   border-radius: 4px;
   padding: 20px;
   margin-top: 20px;
+}
+.international {
+  width: 350px;
+}
+.award {
+  width: 350px;
+  height: 350px;
+}
+.seminar {
+  width: 390px;
+  height: 350px;
+}
+.interview {
+  width: 360px;
+  height: 300px;
+}
+.we-hire {
+  width: 350px;
+  height: 300px;
+}
+/* .team-3 {
+  text-align: left;
+} */
+.general-staff {
+  width: 400px;
+  height: 300px;
+}
+.staff-meeting {
+  width: 370px;
+}
+.recruites {
+   width: 370px;
+}
+.boris {
+  width: 370px;
 }
 .team p {
   color: #ffff;
@@ -673,8 +708,6 @@ footer p {
 @media screen  and (max-width:768px){
   body  {
     width: 100%;
-    
-    
   }
   .hero {
     width: 100%;
@@ -696,9 +729,7 @@ footer p {
   }
   .service a {
     padding: 7px 30px;
-
   }
-
   .first {
     padding: 0;
     flex-direction: column;
@@ -714,10 +745,13 @@ footer p {
   .abr-text {
     margin: 0;
   }
+  .abr-text li {
+    font-size: 13px;
+  }
   .abr-text p {
     font-size: 12px;
     margin: 0;
-    width: 300px;
+    width: 100%;
   }
   .abr-text h2 {
     width: 300px;
@@ -725,9 +759,6 @@ footer p {
   .second {
      padding: 10px;
   }
-  /* .third {
-    display: none;
-  } */
   .second-content {
     margin: 0;
   }
@@ -739,7 +770,7 @@ footer p {
   }
   .sc-text p {
     font-size: 12px;
-    width: 90%;
+    width: 100%;
   }
   .reasons {
     margin: 0;
@@ -760,9 +791,10 @@ footer p {
   .team-members {
     flex-direction: column;
   }
-  .team img{
-    width: 300px;
-  }
+  .team img {
+    width: 320px;
+    align-items: center;
+}
 
   .fourth {
     
@@ -842,13 +874,10 @@ footer p {
     margin: 0;
   }
   .person {
-    /* padding: 0 10px; */
-    /* width: 100%; */
     flex-direction: column;
   }
   .person-image {
     width: 100%;
-    /* height: 43vh; */
   }
   .person-image img {
     border-top-right-radius: 10px;
@@ -882,60 +911,50 @@ footer p {
 
   }
   .staff {
+    margin-top: 20px;
     align-items: flex-start;
   }
   .employment h1 {
     font-size: 22px;
-    text-align: left;
+    text-align: center;
   }
   .staff {
     flex-direction: column;
   }
   .hiring h2 {
     font-size: 13px;
-    text-align: left;
+    text-align: center;
     width: 100%;
   }
   .hiring img {
-    width: 300px;
+    width: 100%;
   }
   .hiring p {
     font-size: 12px;
-    width: 310px;
+    width: 100%;
   }
   .c-support h2 {
     font-size: 12px;
 
   }
   .c-support img {
-    width: 310px;
+    width: 100%;
   }
   .c-support p {
     font-size: 12px;
-    width: 310px; 
+    width: 100%; 
   }
-   .v-assistant {
-    align-items: flex-start;
-  }
-/*
-  .v-assistant h2 {
-    font-size: 18px;
-
-  } */
   .v-assistant h3, h4 {
     font-size: 12px;
   }
   .v-assistant img {
-    width: 310px;
+    width: 100%;
   }
   .v-assistant p {
     font-size: 12px;
-    width: 290px;
+    width: 100%;
     
   }
-  /* .our-patners {
-    margin: 0;
-  } */
   .our-patners h1 {
     font-size: 20px;
   }
