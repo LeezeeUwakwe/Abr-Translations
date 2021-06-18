@@ -793,6 +793,7 @@ footer p {
   }
   .team img {
     width: 320px;
+    height: 284px;
     align-items: center;
 }
 
@@ -836,15 +837,6 @@ footer p {
   .slick-prev {
     left: -84px;
   }
-  
- 
-
-
-
-
-
-
-
   .meet-team {
     width: 100%;
     margin: 0;
